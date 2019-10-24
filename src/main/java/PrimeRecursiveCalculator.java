@@ -3,6 +3,9 @@ import java.util.List;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveTask;
 
+/**
+ * Recursive implementation for PrimeCalculator based on ForkJoinPool
+ */
 public class PrimeRecursiveCalculator extends RecursiveTask<List<Integer>> {
 	private int high;
 	private int low;
